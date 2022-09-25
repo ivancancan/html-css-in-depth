@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png"><br>
+            <strong><a href="home.html">Home<a></strong>
+            <strong><a href="location.html">Location</a></strong>
+            <strong><a href="blog.html">Blog</a></strong>
+        </nav>
+    </header>
+    <main>
+        <h2>Book a Table</h2>
+        <section>
+            <form method="post">
+                <fieldset id="size">
+                    <label>
+                        <input type="radio" value="2" name="size"> 2-person table
+                    </label>
+                   <label>
+                    <input type="radio" value="4" name="size" checked> 4-person table
+                   </label>
+                   <label>
+                    <input type="radio" value="6" name="size"> 6-person table
+                   </label>
+                </fieldset>
+                <fieldset id="location">
+                    <label>
+                        <input type="radio" value="indoor" name="location"> Indoor
+                    </label>
+                    <label>
+                        <input type="radio" value="outdoor" name="location" checked> Outdoor
+                    </label>
+                </fieldset>
+                <button type="submit">Book Table</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright Little Lemon
+    </footer>
+</body>
+</html>
