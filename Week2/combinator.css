@@ -1,0 +1,17 @@
+*{
+    list-style: none;
+}
+
+body{
+    color: black;
+    background-color: orange;
+    font-family: Cambria;
+    font-size: 40px;
+}
+
+div ~ ul{
+    background-color: white;
+    color: green;
+    box-shadow: inset 1px 1px 3px black;
+    padding: 10px;
+}
